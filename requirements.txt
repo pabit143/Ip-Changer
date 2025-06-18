@@ -1,0 +1,16 @@
+# Core Dependencies
+colorama==0.4.6
+netifaces==0.11.0
+
+# Windows Specific (optional)
+pywin32==306; sys_platform == 'win32' and python_version >= '3.6'
+
+# Development/Testing (optional)
+pytest==7.4.0
+pytest-cov==4.1.0
+mypy==1.5.1
+flake8==6.1.0
+
+# Documentation (optional)
+mkdocs==1.5.2
+mkdocs-material==9.2.3
